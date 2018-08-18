@@ -1,0 +1,691 @@
+<script> 
+var dateOfBirth=1995;
+var age= 2017-dateOfBirth;
+var legal= age>=18;
+var AbletoRentcar= age>=21;
+var seniorCitizen= age>= 65;
+console.log('Legal '+ legal);
+console.log("Able to Rent car "+ AbletoRentcar);
+
+console.log('seniorCitizen '+ seniorCitizen);
+
+var check= 2+2;
+var check2=4;
+console.log(check===check2);
+
+test= 4>3 && 4<4
+
+console.log("is it right "+ test);
+var Josh= 7>9
+if (Josh){
+console.log("why")}
+else if (6<7) {console.log('this is hard');
+};
+// Do not edit the code below
+var age = 18;
+var canVote;
+// Do not edit the code above
+if (age>=18) {console.log(canVote=true)}
+else if (age<18){console.log(canVote=false)};
+
+
+function ComplexMath (num1, num2){
+  num1*=7
+  num2+=6
+  console.log(num1*num2);
+  
+}
+ComplexMath(4,6);
+ComplexMath(87921379123,982938492);
+
+function addFirstThree (array){
+    var total;
+    total=array[0]+array[1]+array[2]
+    console.log(total);
+    
+};
+var testarray= ['abdul ','Lukeman ','Mohamed']
+
+addFirstThree(testarray)
+
+
+     
+var counting=6
+function increment (counting){
+ counting= counting++
+ console.log(counting++);
+ 
+   
+}
+increment (counting++)
+
+
+
+
+
+
+
+
+
+
+
+// #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
+
+
+var colorResponse;
+
+var responseCreator = function(param){
+
+  if (param==="green"){
+    {console.log('Green is okay')}
+  
+}
+  else if (param==="red"){
+    {console.log('I heart red')}
+  
+}
+  else {console.log('What is your favorite color?');
+ }
+};
+
+
+
+
+responseCreator ("red");
+
+
+
+var globalName = "Abdul Kanjo"
+function myName (str1,str2){
+console.log("Hi, my name is "+globalName);
+
+};
+myName ();
+
+function myColor (){
+  var localColor = "blue"
+  
+};
+//console.log(localColor);
+
+var myState="Texas"
+function stateUpdater(myState){
+myState==="Utah"
+};
+console.log(myState);
+stateUpdater (console.log(myState));
+
+function add (num1){
+  var localNum = 3
+  function iAmClosure (){
+    return localNum+num1
+  }
+  return iAmClosure
+}
+//iAmClosure (); 
+add (console.log(3));
+
+var person= {name:"abdul", last:"kanjo"}
+
+console.log(person.name);
+
+
+
+
+var userOne= {
+  userName: "josh",
+  password: "password",
+  email: "user@email.com"
+
+};
+var newUser= {
+  userName: "Ahmad",
+  password: "1234",
+  email:"sjdas"
+};
+
+console.log(newUser.userName);
+console.log(newUser.email);
+
+
+var words = {
+  first:'Javascript Objects',
+  second:' get easier to use with practice.',
+};
+// Add the trueStatement variable below this line by combining properties.
+var trueStatement= (words.first)+(words.second);
+console.log(trueStatement);
+
+var basicmath= {
+  add:function(num1,num2){
+    console.log(num1+num2);
+  },
+  multiplication:function(num1,num2){
+    console.log(num1*num2);
+    
+  },
+  division: function (num1,num2){
+    console.log(num1/num2);
+    
+  },
+};
+var a = 23434727837838932893862834876234876237846873476238463
+var b= 1234342346324896328946287348923846893492683
+basicmath.add(a,b)
+basicmath.multiplication(a,b)
+basicmath.division(a,b)
+
+
+function basicaddition (x,y){
+  return x+y
+};
+console.log(basicaddition(2,3));
+
+
+
+var newObject={};
+function addValue (obj,value1,value2) {
+obj
+  ob
+}
+
+
+
+
+
+
+var counting={
+  up: function (x){return x+=1},
+  down: function (x){return x-=1}
+};
+
+console.log(counting.up(7))
+
+
+
+var pets= ["zain","Yazen","ahmad","Mohamed","samer"]
+console.log(pets[2]);
+
+var carCompanies= [
+  "BMW",
+  "Benz",
+  "Nissan",
+  "Acura",
+  'Ford'
+]
+carCompanies[5]="Tesla";
+console.log(carCompanies[5]);
+var theBest= "Tesla";
+console.log(carCompanies[5]===theBest);
+
+
+
+
+
+
+
+
+
+
+
+
+
+var futureStudents = [
+  {name: "Alex", age: 30},
+  {name: "Sara", age:20},
+  {name: "Mark", age: 13}, 
+  {name:"Charlotte", age: 3},
+  {name: "Taylor", age: 18}
+]
+var oldEnough= [futureStudents.filter(function(element){
+return element.age>=18})];
+
+
+console.log(oldEnough);
+
+
+
+
+
+
+
+
+
+
+var people = [
+    {name: "Landy",friend: true},
+    {name: "Corey",friend: true},
+    {name: "Ted",friend: false},
+    {name: "Sperry",friend: true},
+    {name: "Bill",friend: false}
+  ];
+  
+
+    var friends=[];
+  people.forEach(function(element){
+    if (element.friend===true){
+     friends.push(element.name)
+    }
+  });
+console.log(friends);
+
+
+
+var testarray1= [];
+console.log(testarray1);
+
+
+for (i=1;i<=100;i++){
+  testarray1.push(i);
+};
+console.log(testarray1);
+
+
+
+var attendArray= [];
+
+function rsvp (yesOrNo,NumOfGuests){
+if (yesOrNo==true){
+ attendArray.push(true)
+  for (i=1;i<=NumOfGuests;i++){
+    attendArray.push(true)
+  }
+}
+};
+rsvp (true,65)
+console.log(attendArray);
+
+
+function loveTheH(str) {
+    var i;
+    for (i = 1; i <= 10; i++) {
+        str += 'H';
+    }
+    return str;
+}
+console.log(loveTheH(this));
+
+
+
+
+
+
+
+var startingNum = 0;
+// Create a function that uses the above variable to count by twos.
+function countingByTwo (num){
+  var answer=[];
+  for (i=0;i<startingNum;i+=2){
+    console.log(answer.push(i));
+     
+    
+  }
+  return startingNum
+}
+console.log(countingByTwo(startingNum));
+
+
+
+
+
+function changeEverything (array,value){
+  for (i=0;i<array.length;i++){
+    array[i]=value;
+  };
+  return array
+};
+var sample= [23,34,35,34];
+console.log(sample);
+console.log(changeEverything(sample,"I hate Arrays"));
+
+
+var total = 2;
+// Create a function that adds numbers in an array to the total.
+function totalOfNumbers(array){
+  for (i=0;i<array.length;i++){
+  total+=array[i]
+  }
+  return total;
+}
+var ras= [1,2,3,4]
+console.log(totalOfNumbers(ras));
+
+
+
+
+
+
+
+function lookingForDave (array){
+  for (i=0;i<array.length;i++){
+    if (array=="Dave"){
+      array[i]=array;
+    }
+    return "I found him.";
+  }
+}
+
+
+var theName= ['josh',"Dave",'zain']
+console.log(lookingForDave(theName));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #9 Using filter(), return only your friends of the array of people below. Assign it to a variable called 'trueFriends'.
+
+
+var peopleIknow = [
+  { name: "Steve", friend: true },
+  { name: "Dan", friend: false },
+  { name: "Bart", friend: true },
+  { name: "Sarah", friend: false },
+  { name: "Michelle", friend: false },
+  { name: "Holly", friend: true }
+];
+var trueFriends=[]
+peopleIknow.forEach(function(array){
+if (array.friend===true){
+  trueFriends.push(array)
+}
+});
+console.log(trueFriends);
+
+
+
+
+
+
+// #8 Below is a array, myNumbers. Create a function called 'evensOnly' that returns the 'evensArray' of only even numbers
+//DON'T TOUCH THE CODE BELOW
+var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
+//DON'T TOUCH THE CODE ABOVE
+
+var evensArray=[];
+function evensOnly (arr){
+  for (i=0;i<arr.length;i++){
+    if (arr%2===0){
+      evensArray.push(i)
+    }
+  }
+  return evensArray
+};
+console.log(evensOnly(myNumbers));
+
+
+
+
+
+
+function fullName (firstName,lastName,callback){
+  return firstName +lastName
+}
+
+
+
+// ===== DO NOT TOUCH CODE BELOW THIS LINE ===== //
+var welcomeMessage = (first, last) => {
+  return `Welcome to DevMountain, ${first} ${last}!`
+}
+// ===== DO NOT TOUCH CODE ABOVE THIS LINE ===== //
+
+
+console.log(welcomeMessage("abdul","kanjo", welcomeMessage));
+ 
+
+
+
+/* #8 Below is a array, myNumbers. Create a function called 'evensOnly' that returns the 'evensArray' of only even numbers
+//DON'T TOUCH THE CODE BELOW
+var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
+//DON'T TOUCH THE CODE ABOVE
+
+var evensArray=[];
+
+  
+  myNumbers.forEach(function (element){
+    
+    if (element%2===0){
+      evensArray.push(element)
+    };
+return evensArray
+});
+console.log(evensArray);*/
+
+
+
+var jobs = [{receptionist: "James"}, 
+            {programmer: "Steve"},
+            {designer: "Alicia"}];
+
+var solution = jobs.filter((item) => item.programmer=== "Steve")
+
+
+
+
+
+
+
+var user11553 = {username:"JStudent01"};
+var instagram = "JMann22";
+var twitter = "JohnM22";
+//Create a function that adds properties to an object and then call the function
+function updateSocialMedia (obj,str1,str2){
+ return {
+   username:obj.username,
+  instagramID: str1,
+  twitterID: str2
+ }
+}
+console.log(updateSocialMedia (user11553,instagram,twitter));
+ 
+
+
+var arr1 = [15,17,22,4,3,35,11,12,38,8];
+// Create a function that will average all the even or odd numbers in an array.
+
+function averageArray (arr,val){
+var total=0;
+var count=0;
+for (i = 0; i < arr.length; i++) {
+  if (val=="evens"){
+    if(arr[i]%2==0){
+      total+=arr[i];
+      count++;
+    }
+
+  }
+  else if (val=='odds'){
+    if (arr[i]%2!=0){
+      total+=arr[i]
+      count++
+    }
+  }
+  
+}
+return total/count
+
+}
+
+console.log(averageArray(arr1,"odds"));
+ 
+
+
+
+
+
+
+
+function greeting1 (name){
+  return "Hello, "+name 
+}
+console.log(greeting1("Abdul"));
+
+var greeting= name => "Hello, "+name;
+
+console.log(greeting ("abdul"));
+
+
+
+
+
+
+
+
+
+/*var groceries1= ["apples", "milk", "eggs", "bread"]
+
+function doubleCheck(arr){
+  for (i = 0; i < arr.length; i++) {
+    if (arr!="chocolate"){
+      arr.push("chocolate")
+    }
+    
+  }
+}
+console.log(doubleCheck(groceries1));*/ 
+
+
+
+
+var dog={
+  name: "max",
+  color: 'black',
+  age: 3,
+  goodBoy: true
+}
+var devMountainClassPet= dog.name;
+
+dog.bark= function (){return "Woof woof"}
+
+console.log(dog.bark("no"));
+
+
+
+var groceries= ["apples", "milk", "eggs", "bread"]
+
+
+
+
+/*var words = {
+  first:'Javascript Objects',
+  second:' get easier to use with practice.',
+};
+// Add the trueStatement variable below this line by combining properties.
+var trueStatement= (words.first)+(words.second) 
+
+var treasureHunt= {coin:coinLocation,locket:locketLocation,key:keyLocation};
+
+var batmansFavSayings = {
+  catchPhrase:function (){return "I'm Batman."}
+};
+
+
+
+var petNames = ['Bubbly Boo', 'Giggle Cheeks', 'Snuggluffugus','JuJuBee', 'Tubba Wubba'];
+
+// Create a new variable by calling the correct string from the above array.
+var tonightsPickupLine = petNames[3];
+
+var people = [
+    {name: "Landy",friend: true},
+    {name: "Corey",friend: true},
+    {name: "Ted",friend: false},
+    {name: "Sperry",friend: true},
+    {name: "Bill",friend: false}
+  ];
+  
+  //code here
+   var friends=[];
+  people.forEach(function(element){
+    if (element.friend===true){
+     friends.push(element.name)
+    }
+  });
+
+
+*/
+
+// function looper (array){
+//    var mySum=0;
+//    for (var i = 0; i < array.length; i++){
+//      if (array[i]%2!=0||array[i]>=100){
+//        mySum+=arr[i]
+//      }
+//    }
+//    return mySum
+// }
+// var why= [189793,27675855,3768765,4876768763,5,6,7,8,9,7,6,4,2]
+// console.log(looper(why));
+
+
+// Are the numbers in order?
+
+// In this Kata, your function receives an array of positive integers as input. Your task is to determine whether the numbers are in ascending order.
+
+// For the purposes of this Kata, you may assume that all inputs are valid (i.e. arrays containing only positive integers with a length of at least 2).
+
+// For example:
+
+// inAscOrder([1,2,4,7,19]); // returns true
+// inAscOrder([1,2,3,4,5]); // returns true
+// inAscOrder([1,6,10,18,2,4,20]); // returns false
+// inAscOrder([9,8,7,6,5,4,3,2,1]); // returns false because the numbers are in DESCENDING order
+
+// Extra Challenge: If time, try to optimise and shorten your code as much as possible.
+
+ 
+
+var inAscOrder=[1,2,4,7,19]
+function order1(array){
+for (let i=0;i<array.length -1;i++){
+  if (array[i]<array[i-1]){
+return false
+  }
+  else {
+    return true
+  }
+}
+}
+
+
+console.log(order1(inAscOrder));
+
+
+
+
+
+
+str12= "WUBWUBIWUBAMWUBWUBX"
+
+function songDecoder (str){
+ str.replace('WUB', '');
+return str;
+}
+console.log(songDecoder(str12));
+
+
+// check out .trim / .replcae ---------------- important------------- 
+
+
+
+
+</script>
