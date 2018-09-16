@@ -1139,222 +1139,251 @@
   // };
 
 
-//   var callBinding = (magicAnimals, updateAnimal, id) => {
-//     let animal = magicAnimals.map(animal => animal.id === id);
-//     updateAnimal.call(animal);
-//     return updateAnimal("Trogdor");
-//   };
+  //   var callBinding = (magicAnimals, updateAnimal, id) => {
+  //     let animal = magicAnimals.map(animal => animal.id === id);
+  //     updateAnimal.call(animal);
+  //     return updateAnimal("Trogdor");
+  //   };
 
 
-//   var applyBinding = (magicAnimals, updateAnimal, id) => {
-//     let animal = magicAnimals.map(animal => {
-//       if (animal.id === id) {
-//         return animal;
-//       }
-//     });
-//     return updateAnimal.apply(animal[0], ["being majestic", "eating rainbows"]);
-//   };
-
-
-
-//   var foo;
-
-//   var promiseMe = $q => {
-//     return new Promise((re, rej) => {
-//       setTimeout(() => re((foo = "bar")), 20);
-//     });
-//   };
+  //   var applyBinding = (magicAnimals, updateAnimal, id) => {
+  //     let animal = magicAnimals.map(animal => {
+  //       if (animal.id === id) {
+  //         return animal;
+  //       }
+  //     });
+  //     return updateAnimal.apply(animal[0], ["being majestic", "eating rainbows"]);
+  //   };
 
 
 
+  //   var foo;
 
-// var emailList = ($q, $http) => {
-//   return $http({
-//     method: "GET",
-//     url: "/api/users"
-//   }).then(res => (arr = res.data.map(e => e.email)));
-// };
+  //   var promiseMe = $q => {
+  //     return new Promise((re, rej) => {
+  //       setTimeout(() => re((foo = "bar")), 20);
+  //     });
+  //   };
 
 
 
 
-// function countSheeps(arrayOfSheep) {
-// var numofsheep=0;
-//   for(var i = 0; i < arrayOfSheep.length; i++){
-//   if(arrayOfSheep[i]==true){
-//    numofsheep++
-//   }
-//   }
-//   return numofsheep
-// }
-
-// function findNextSquare(sq) {
-//   if(sq > 0 && Math.sqrt(sq) % 1 === 0){var num= Math.sqrt(sq)+1
-//   return Math.pow(num, 2);}
-//   else{
-//     return -1
-//   }
-// }
-
-//---------------------REDO THIS PROBLEM---------------------
-
-// function openOrSenior(data){
-//   var c = [];
-//   var i;
-
-//   for (i = 0; i < data.length; ++i) {
-//     var person = data[i];
-//     var age = person[0];
-//     var handicap = person[1];
-//     if ((age >= 55) && (handicap > 7))  {
-//       person = [];
-//       person.push("Senior");
-//     } else {
-//       person = [];
-//       person.push("Open");
-//     }
-//     c.push(person);
-//   }
-//   return c.join().split(',');
-// }
+  // var emailList = ($q, $http) => {
+  //   return $http({
+  //     method: "GET",
+  //     url: "/api/users"
+  //   }).then(res => (arr = res.data.map(e => e.email)));
+  // };
 
 
 
 
+  // function countSheeps(arrayOfSheep) {
+  // var numofsheep=0;
+  //   for(var i = 0; i < arrayOfSheep.length; i++){
+  //   if(arrayOfSheep[i]==true){
+  //    numofsheep++
+  //   }
+  //   }
+  //   return numofsheep
+  // }
 
-// function findNeedle(haystack) {
-//   for (var i = 0; i < haystack.length; i++){
-//   if(haystack[i]=='needle'){
-//     var num= haystack.indexOf('needle')
-//     return `found the needle at position ${num}`
-//   }
-//   }
-// }
+  // function findNextSquare(sq) {
+  //   if(sq > 0 && Math.sqrt(sq) % 1 === 0){var num= Math.sqrt(sq)+1
+  //   return Math.pow(num, 2);}
+  //   else{
+  //     return -1
+  //   }
+  // }
 
-// function countPositivesSumNegatives(input) {
-// var pos=0;
-// var neg=0;
-// if(input!=null && input.length>0 ){
-//   for (let i = 0; i < input.length; i++){
-//   if(input[i]>0){
-//     pos++
-//   }
-//   else if(input[i]<0){
-//     neg=neg+input[i]
-//   }
-// }
-// return [pos,neg]
-// }
-// else{
-//   return []
-// }
-// }
+  //---------------------REDO THIS PROBLEM---------------------
 
+  // function openOrSenior(data){
+  //   var c = [];
+  //   var i;
 
-
-// function XO(str) {
-//   var str = str.toLowerCase();
-// var numofO=0
-// var numofX=0
-//     for(i = 0; i < str.length; i++){
-//        if(str[i]=='x'||str[i]=='o'){
-//         if(str[i]=='x'){
-//           numofX++
-//         }
-//         else if(str[i]=='o'){
-//           numofO++
-//         }
-//       }
-//     }
-//     return numofX
-//     if(x === o){
-//     return true;
-//   }
-//   return false;
-// }
+  //   for (i = 0; i < data.length; ++i) {
+  //     var person = data[i];
+  //     var age = person[0];
+  //     var handicap = person[1];
+  //     if ((age >= 55) && (handicap > 7))  {
+  //       person = [];
+  //       person.push("Senior");
+  //     } else {
+  //       person = [];
+  //       person.push("Open");
+  //     }
+  //     c.push(person);
+  //   }
+  //   return c.join().split(',');
+  // }
 
 
 
 
-// function arithmetic(a, b, operator){
-//   if(operator=='add'){
-//   return a+b
-//   }
-//   else if(operator=='subtract'){
-//   return a-b
-//   }
-//   else if(operator=='multiply'){
-//   return a*b
-//   }
-//   else if(operator=='divide'){
-//   return a/b
-//   }
-// }
+
+  // function findNeedle(haystack) {
+  //   for (var i = 0; i < haystack.length; i++){
+  //   if(haystack[i]=='needle'){
+  //     var num= haystack.indexOf('needle')
+  //     return `found the needle at position ${num}`
+  //   }
+  //   }
+  // }
+
+  // function countPositivesSumNegatives(input) {
+  // var pos=0;
+  // var neg=0;
+  // if(input!=null && input.length>0 ){
+  //   for (let i = 0; i < input.length; i++){
+  //   if(input[i]>0){
+  //     pos++
+  //   }
+  //   else if(input[i]<0){
+  //     neg=neg+input[i]
+  //   }
+  // }
+  // return [pos,neg]
+  // }
+  // else{
+  //   return []
+  // }
+  // }
+
+
+
+  // function XO(str) {
+  //   var str = str.toLowerCase();
+  // var numofO=0
+  // var numofX=0
+  //     for(i = 0; i < str.length; i++){
+  //        if(str[i]=='x'||str[i]=='o'){
+  //         if(str[i]=='x'){
+  //           numofX++
+  //         }
+  //         else if(str[i]=='o'){
+  //           numofO++
+  //         }
+  //       }
+  //     }
+  //     return numofX
+  //     if(x === o){
+  //     return true;
+  //   }
+  //   return false;
+  // }
 
 
 
 
-// function getCount(str) {
-//  var m = str.match(/[aeiou]/gi);
-//   return m === null ? 0 : m.length;
-// }
-
-
-
-// function digitize(n) {
-//   return (''+n).split('').reverse().map((e)=>Number(e))
-// }
-
-
-
-// function accum(s) {
-//   return s.split('').map((e,i)=>(e.toUpperCase())+(e.toLowerCase().repeat(i))).join('-')
-// }
-
-
-
-// function disemvowel(str) {
-//   return str.replace(/[aeiou]/gi, '');
-// }
-
-
-
-// var isSquare = function(n){
-//   if (n<0){
-//     return false
-//   }
-//   else if(n>=0){
-//     if(Math.sqrt(n)%1==0){
-//       return true
-//     }
-//     else{
-//       return false
-//     }
-//   }
-// }
+  // function arithmetic(a, b, operator){
+  //   if(operator=='add'){
+  //   return a+b
+  //   }
+  //   else if(operator=='subtract'){
+  //   return a-b
+  //   }
+  //   else if(operator=='multiply'){
+  //   return a*b
+  //   }
+  //   else if(operator=='divide'){
+  //   return a/b
+  //   }
+  // }
 
 
 
 
-// function reverseWords(str) {
-//     str = str.split('')
-//     .reverse()
-//     .join('')
-//     .split(' ')
-//     .reverse()
-//    .join(' ')
-//    return str
-// }
+  // function getCount(str) {
+  //  var m = str.match(/[aeiou]/gi);
+  //   return m === null ? 0 : m.length;
+  // }
 
 
-// function duplicateCount(text){
-//   var arr = text.toLowerCase().split(''); 
-//   var newArr = arr.filter(function(a, b) {
-//     return arr.indexOf(a) !== b;
-//   });
-//   return newArr.filter(function(item, pos) {
-//     return newArr.indexOf(item) == pos;
-//   }).length;
-// }
+
+  // function digitize(n) {
+  //   return (''+n).split('').reverse().map((e)=>Number(e))
+  // }
+
+
+
+  // function accum(s) {
+  //   return s.split('').map((e,i)=>(e.toUpperCase())+(e.toLowerCase().repeat(i))).join('-')
+  // }
+
+
+
+  // function disemvowel(str) {
+  //   return str.replace(/[aeiou]/gi, '');
+  // }
+
+
+
+  // var isSquare = function(n){
+  //   if (n<0){
+  //     return false
+  //   }
+  //   else if(n>=0){
+  //     if(Math.sqrt(n)%1==0){
+  //       return true
+  //     }
+  //     else{
+  //       return false
+  //     }
+  //   }
+  // }
+
+
+
+
+  // function reverseWords(str) {
+  //     str = str.split('')
+  //     .reverse()
+  //     .join('')
+  //     .split(' ')
+  //     .reverse()
+  //    .join(' ')
+  //    return str
+  // }
+
+
+  // function duplicateCount(text){
+  //   var arr = text.toLowerCase().split(''); 
+  //   var newArr = arr.filter(function(a, b) {
+  //     return arr.indexOf(a) !== b;
+  //   });
+  //   return newArr.filter(function(item, pos) {
+  //     return newArr.indexOf(item) == pos;
+  //   }).length;
+  // }
+
+
+  // function lovefunc(flower1, flower2){
+  //   return flower1 % 2 !== flower2 % 2;
+  // }
+
+  // strCount({
+  //   first: "1",
+  //   second: "2",
+  //   third: false,
+  //   fourth: ["anytime", 2, 3, 4],
+  //   fifth: null
+  // })
+  // function strCount(obj) {
+  //   var num = 0
+  //   for (var i in obj) {
+  //     if (typeof obj[i] == 'string') {
+  //       num++
+  //     }
+  //     else if (typeof obj[i] == 'object') {
+  //       for (var x in obj[i]) {
+  //         if (typeof obj[x] == 'string') {
+  //           num++
+  //         }
+  //       }
+  //     }
+  //   }
+  //   return num
+  }
 
 </script>
