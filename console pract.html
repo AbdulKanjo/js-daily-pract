@@ -1659,4 +1659,55 @@
 
 // likes(['Alex'])
 
+
+// function minMax(arr){
+//   var lastArr=[]
+//   var myArray= arr.sort((a, b)=> a - b)
+//   lastArr.push(myArray[0],myArray[myArray.length-1]);
+//   return lastArr
+// }
+
+
+
+// solution=(str, ending)=> str.substr(str.length-(ending.length))==ending ? true: false
+
+// solution('abc', 'd')
+
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
+
+
+
+// function findOutlier(integers){
+// var even=0
+// var odd=0
+// for (let i=0; i<integers.length ; i++){
+//   if(integers[i]%2!==0){
+//     odd++
+//   }
+//  else if(integers[i]%2==0){
+//     even++
+//   }
+// }
+// if(even>odd){
+//   return Number(integers.filter(e=>e%2!==0))
+// }
+// else if(even<odd){
+//   return Number(integers.filter(e=>e%2==0))
+// }
+// }
+
+// findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])
+
+// [2, 4, 0, 100, 4, 11, 2602, 36]
+// Should return: 11 (the only odd number)
+
+// [160, 3, 1719, 19, 11, 13, -21]
+// Should return: 160 (the only even number)
+
+
+
+//  return integers.filter(e=>e%2!==0) returns odd
+//  return integers.filter(e=>e%2==0) returns even
+
 </script>
