@@ -1605,7 +1605,22 @@
 // }
 
 // }
-
+// Angular
+// <ul class="rating" (click)="handleClick($event)">
+//     <li [className]="'star ' + (rating > 0 ? 'solid' : 'outline')"></li>
+//     <li [className]="'star ' + (rating > 1 ? 'solid' : 'outline')"></li>
+//     <li [className]="'star ' + (rating > 2 ? 'solid' : 'outline')"></li>
+//     <li [className]="'star ' + (rating > 3 ? 'solid' : 'outline')"></li>
+//     <li [className]="'star ' + (rating > 4 ? 'solid' : 'outline')"></li>
+// </ul>
+// React
+// <ul className="rating" onClick={handleClick}>
+//     <li className={'star ' + (rating > 0 ? 'solid' : 'outline')}></li>
+//     <li className={'star ' + (rating > 1 ? 'solid' : 'outline')}></li>
+//     <li className={'star ' + (rating > 2 ? 'solid' : 'outline')}></li>
+//     <li className={'star ' + (rating > 3 ? 'solid' : 'outline')}></li>
+//     <li className={'star ' + (rating > 4 ? 'solid' : 'outline')}></li>
+// </ul>
 
 // function spinWords(str){
 //  var arr=[]
