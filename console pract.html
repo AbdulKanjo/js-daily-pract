@@ -1,7 +1,7 @@
 <script> 
 
-//-------------------KEEP ADDING AT THE BOTTOM----------------------
-// go all the way down for recent problems
+  //-------------------KEEP ADDING AT THE BOTTOM----------------------
+  // go all the way down for recent problems
   // var dateOfBirth=1995;
   // var age= 2017-dateOfBirth;
   // var legal= age>=18;
@@ -1389,123 +1389,123 @@
   //   return num
   // }
 
-//   strCount({
-//   first: "1",
-//   second: "2",
-//   third: false,
-//   fourth: ["anytime",2,3,4],
-//   fifth:  null
-//   })
+  //   strCount({
+  //   first: "1",
+  //   second: "2",
+  //   third: false,
+  //   fourth: ["anytime",2,3,4],
+  //   fifth:  null
+  //   })
 
-// function strCount(obj){
-// var num=0
-// for (var i in obj){
-//  if(typeof obj[i]=='string'){
-// num++
-//  } 
-//  else if (typeof obj[i]=='object'){
-//   for (var x in obj[i]){
-//     if(typeof obj[i][x]=='string'){
-// num++
-//  } 
-//   }
-//  }
-//  else if(typeof obj[i]=='array'){
-//    for (z = 0; z < cars.length; z++){
-//      if(typeof obj[i][z]=='string'){
-//        num++
-//      }
-//    }
-//  }
-// }
-// return num
-// }
-
-
-
-// function descendingOrder(n){
-//    var newN= n.toString().split("").sort().reverse().join('')
-//  return Number(newN)
-// }
-
-
-// var str='turns random test cases easier than writing basic ones'
-// function findShort(str){
-// return parseInt(str.split(' ').map(e=>e.length).sort().splice(0,1))
-// }
-// findShort(str)
-
-// function filter_list(l) {
-//  arr=[]
-//   for(i = 0; i < l.length; i++){
-//   if(typeof l[i]=='number'){
-//     arr.push(l[i])
-//   }
-//   }
-//   return arr
-// }
-
-// function sumTwoSmallestNumbers(numbers) {  
-//   return numbers.sort((a,b)=>a-b).splice(0,2).reduce((a,b)=>a+b)
-// };
-
-
-// return masked string
-// function maskify(cc) {
-//   var num= cc.length-4
-// var lastFour= cc.split('').splice(num).join('')
-// var start=cc.split('').splice(0,num).map(e=>e.cc='#').join('')
-//  return start+lastFour
-// }
-
-// function longest(s1, s2) {
-//   var stringC=s1+s2
-//   var myArray=stringC.split('').sort()
-//   return uniques = myArray.filter((v, i, a) => a.indexOf(v) === i).join('')
-// }
-
-// ----------- A closure Ex----------------
-// var clouser  =() =>{
-//   let counter=0
-//   innerClouser=()=>{
-// return counter++
-//   }
-//   return innerClouser
-// }
-
-// var newfunc=clouser();
-// newfunc()
-// newfunc()
-// console.log(newfunc())
-// var testing=clouser();
-// testing()
-// testing()
-// testing()
-// testing()
-// console.log(testing())
-
-
-// function timedReading(maxLength, text) {
-//    return text.split(' ').map(e=>e.length)
-//  .filter(e=>e<=maxLength).length
-// }
-
-
-// function printerError(s) {
-//    var num= s.length
-//    var otherNum= s.split('').filter(e=>e.match(/[n-z]/i)).length
-//    return otherNum+'/'+num
-// }
-
-
-// function removeSmallest(numbers) {
-//  var arr= numbers.sort().splice(0,1)
-//  return numbers
-// }
+  // function strCount(obj){
+  // var num=0
+  // for (var i in obj){
+  //  if(typeof obj[i]=='string'){
+  // num++
+  //  } 
+  //  else if (typeof obj[i]=='object'){
+  //   for (var x in obj[i]){
+  //     if(typeof obj[i][x]=='string'){
+  // num++
+  //  } 
+  //   }
+  //  }
+  //  else if(typeof obj[i]=='array'){
+  //    for (z = 0; z < cars.length; z++){
+  //      if(typeof obj[i][z]=='string'){
+  //        num++
+  //      }
+  //    }
+  //  }
+  // }
+  // return num
+  // }
 
 
 
-// function openOrSenior(data){
+  // function descendingOrder(n){
+  //    var newN= n.toString().split("").sort().reverse().join('')
+  //  return Number(newN)
+  // }
+
+
+  // var str='turns random test cases easier than writing basic ones'
+  // function findShort(str){
+  // return parseInt(str.split(' ').map(e=>e.length).sort().splice(0,1))
+  // }
+  // findShort(str)
+
+  // function filter_list(l) {
+  //  arr=[]
+  //   for(i = 0; i < l.length; i++){
+  //   if(typeof l[i]=='number'){
+  //     arr.push(l[i])
+  //   }
+  //   }
+  //   return arr
+  // }
+
+  // function sumTwoSmallestNumbers(numbers) {  
+  //   return numbers.sort((a,b)=>a-b).splice(0,2).reduce((a,b)=>a+b)
+  // };
+
+
+  // return masked string
+  // function maskify(cc) {
+  //   var num= cc.length-4
+  // var lastFour= cc.split('').splice(num).join('')
+  // var start=cc.split('').splice(0,num).map(e=>e.cc='#').join('')
+  //  return start+lastFour
+  // }
+
+  // function longest(s1, s2) {
+  //   var stringC=s1+s2
+  //   var myArray=stringC.split('').sort()
+  //   return uniques = myArray.filter((v, i, a) => a.indexOf(v) === i).join('')
+  // }
+
+  // ----------- A closure Ex----------------
+  // var clouser  =() =>{
+  //   let counter=0
+  //   innerClouser=()=>{
+  // return counter++
+  //   }
+  //   return innerClouser
+  // }
+
+  // var newfunc=clouser();
+  // newfunc()
+  // newfunc()
+  // console.log(newfunc())
+  // var testing=clouser();
+  // testing()
+  // testing()
+  // testing()
+  // testing()
+  // console.log(testing())
+
+
+  // function timedReading(maxLength, text) {
+  //    return text.split(' ').map(e=>e.length)
+  //  .filter(e=>e<=maxLength).length
+  // }
+
+
+  // function printerError(s) {
+  //    var num= s.length
+  //    var otherNum= s.split('').filter(e=>e.match(/[n-z]/i)).length
+  //    return otherNum+'/'+num
+  // }
+
+
+  // function removeSmallest(numbers) {
+  //  var arr= numbers.sort().splice(0,1)
+  //  return numbers
+  // }
+
+
+
+  // function openOrSenior(data){
   //   var c = [];
   //   var i;
 
@@ -1533,7 +1533,7 @@
   // }
   // console.log(songDecoder(str12));
 
- // function computeSquareRoot(num) {
+  // function computeSquareRoot(num) {
   //  return Math.sqrt(num)
   // }
 
@@ -1548,348 +1548,348 @@
 
 
 
-//   function friend(friends){
-//   return friends.filter(el => el.length === 4);
-// }
-
-
-//past the rest of the problems finished today on Sunday
-
-// var number = function(busStops){
-// var goton = 0;
-//   var gotoff = 0;
-//   for(var i = 0; i < busStops.length; i++){
-//     goton += busStops[i][0];
-//     gotoff += busStops[i][1];
-//   }
-//   return goton - gotoff;
-// }
-
-// var test=(arr)=>{
-//   var sumOfEach=[]
-//   var length=arr.length
-//   for (let i=0 ; i<arr.length ; i++){
-//     sumOfEach.push(arr[i].reduce((a,b)=>a+b))
-
-//   }
-//   return parseInt(sumOfEach.reduce((a,b)=>a+b)/length)
-// }
-
-
-// test([[1,2,3],[4,5,6],[2,3,5]])
-
-
-
-
-// function calculateYears(principal, interest, tax, desired) {
-//   var years = 0;
-//     while(principal < desired){
-//       principal += (principal * interest) * (1 - tax);
-//       years++;
-//     }
-//     return years;
-// }
-
-
-// function spinWords(str){
-// var newStr= str.split(' ')
-// var arr=[]
-// for(let i=0; i<newStr.length ; i++){
-//   if (newStr[i].length>=5){
-//    arr.push(newStr[i].split("").reverse().join(""))
-//    return arr.join('')
-//   }
-//   else if (newStr[i].length<5){
-//     return str
-//   }
-// }
-
-// }
-// Angular
-// <ul class="rating" (click)="handleClick($event)">
-//     <li [className]="'star ' + (rating > 0 ? 'solid' : 'outline')"></li>
-//     <li [className]="'star ' + (rating > 1 ? 'solid' : 'outline')"></li>
-//     <li [className]="'star ' + (rating > 2 ? 'solid' : 'outline')"></li>
-//     <li [className]="'star ' + (rating > 3 ? 'solid' : 'outline')"></li>
-//     <li [className]="'star ' + (rating > 4 ? 'solid' : 'outline')"></li>
-// </ul>
-// React
-// <ul className="rating" onClick={handleClick}>
-//     <li className={'star ' + (rating > 0 ? 'solid' : 'outline')}></li>
-//     <li className={'star ' + (rating > 1 ? 'solid' : 'outline')}></li>
-//     <li className={'star ' + (rating > 2 ? 'solid' : 'outline')}></li>
-//     <li className={'star ' + (rating > 3 ? 'solid' : 'outline')}></li>
-//     <li className={'star ' + (rating > 4 ? 'solid' : 'outline')}></li>
-// </ul>
-
-// function spinWords(str){
-//  var arr=[]
-//  var checkarr=[]
-//  var newStr=str.split(' ')
-//  for(let i=0; i<newStr.length ; i++){
-//    arr.push(newStr[i].length)
-//  }
-// checkarr.push(parseInt(arr.filter(e=>e>=5).join(' ')))
-// // if (checkarr.length>=1){
-// //  return checkarr
-// // }
-// // else{
-// //   return false
-// // }
-// return checkarr.filter(e=>{
-//   if (typeof e=="number"){
-//     return e
-//   }
-//   else{
-//     return 'no'
-//   }
-// }
-// )
-// }
-
-
-// spinWords("Hey asd asd asd")
+  //   function friend(friends){
+  //   return friends.filter(el => el.length === 4);
+  // }
+
+
+  //past the rest of the problems finished today on Sunday
+
+  // var number = function(busStops){
+  // var goton = 0;
+  //   var gotoff = 0;
+  //   for(var i = 0; i < busStops.length; i++){
+  //     goton += busStops[i][0];
+  //     gotoff += busStops[i][1];
+  //   }
+  //   return goton - gotoff;
+  // }
+
+  // var test=(arr)=>{
+  //   var sumOfEach=[]
+  //   var length=arr.length
+  //   for (let i=0 ; i<arr.length ; i++){
+  //     sumOfEach.push(arr[i].reduce((a,b)=>a+b))
+
+  //   }
+  //   return parseInt(sumOfEach.reduce((a,b)=>a+b)/length)
+  // }
+
+
+  // test([[1,2,3],[4,5,6],[2,3,5]])
+
+
+
+
+  // function calculateYears(principal, interest, tax, desired) {
+  //   var years = 0;
+  //     while(principal < desired){
+  //       principal += (principal * interest) * (1 - tax);
+  //       years++;
+  //     }
+  //     return years;
+  // }
+
+
+  // function spinWords(str){
+  // var newStr= str.split(' ')
+  // var arr=[]
+  // for(let i=0; i<newStr.length ; i++){
+  //   if (newStr[i].length>=5){
+  //    arr.push(newStr[i].split("").reverse().join(""))
+  //    return arr.join('')
+  //   }
+  //   else if (newStr[i].length<5){
+  //     return str
+  //   }
+  // }
+
+  // }
+  // Angular
+  // <ul class="rating" (click)="handleClick($event)">
+  //     <li [className]="'star ' + (rating > 0 ? 'solid' : 'outline')"></li>
+  //     <li [className]="'star ' + (rating > 1 ? 'solid' : 'outline')"></li>
+  //     <li [className]="'star ' + (rating > 2 ? 'solid' : 'outline')"></li>
+  //     <li [className]="'star ' + (rating > 3 ? 'solid' : 'outline')"></li>
+  //     <li [className]="'star ' + (rating > 4 ? 'solid' : 'outline')"></li>
+  // </ul>
+  // React
+  // <ul className="rating" onClick={handleClick}>
+  //     <li className={'star ' + (rating > 0 ? 'solid' : 'outline')}></li>
+  //     <li className={'star ' + (rating > 1 ? 'solid' : 'outline')}></li>
+  //     <li className={'star ' + (rating > 2 ? 'solid' : 'outline')}></li>
+  //     <li className={'star ' + (rating > 3 ? 'solid' : 'outline')}></li>
+  //     <li className={'star ' + (rating > 4 ? 'solid' : 'outline')}></li>
+  // </ul>
+
+  // function spinWords(str){
+  //  var arr=[]
+  //  var checkarr=[]
+  //  var newStr=str.split(' ')
+  //  for(let i=0; i<newStr.length ; i++){
+  //    arr.push(newStr[i].length)
+  //  }
+  // checkarr.push(parseInt(arr.filter(e=>e>=5).join(' ')))
+  // // if (checkarr.length>=1){
+  // //  return checkarr
+  // // }
+  // // else{
+  // //   return false
+  // // }
+  // return checkarr.filter(e=>{
+  //   if (typeof e=="number"){
+  //     return e
+  //   }
+  //   else{
+  //     return 'no'
+  //   }
+  // }
+  // )
+  // }
+
+
+  // spinWords("Hey asd asd asd")
 
 
-// function likes(names) {
-//  var num=names.length
-//   if(num==0){
-//     return 'no one likes this'
-//   }
-//   else if(num==1){
-// return `${names[0]} likes this`
-//   }
-//   else if(num==2){
-//     return `${names[0]} and ${names[1]} like this`
-//   }
-//    else if(num==3){
-//     return `${names[0]}, ${names[1]} and ${names[2]} like this`
-//   }
-//  else if(num>3){
-//     return `${names[0]}, ${names[1]} and ${num-2} others like this`
-//   }
-// }
+  // function likes(names) {
+  //  var num=names.length
+  //   if(num==0){
+  //     return 'no one likes this'
+  //   }
+  //   else if(num==1){
+  // return `${names[0]} likes this`
+  //   }
+  //   else if(num==2){
+  //     return `${names[0]} and ${names[1]} like this`
+  //   }
+  //    else if(num==3){
+  //     return `${names[0]}, ${names[1]} and ${names[2]} like this`
+  //   }
+  //  else if(num>3){
+  //     return `${names[0]}, ${names[1]} and ${num-2} others like this`
+  //   }
+  // }
 
 
 
-// likes(['Alex'])
+  // likes(['Alex'])
 
 
-// function minMax(arr){
-//   var lastArr=[]
-//   var myArray= arr.sort((a, b)=> a - b)
-//   lastArr.push(myArray[0],myArray[myArray.length-1]);
-//   return lastArr
-// }
+  // function minMax(arr){
+  //   var lastArr=[]
+  //   var myArray= arr.sort((a, b)=> a - b)
+  //   lastArr.push(myArray[0],myArray[myArray.length-1]);
+  //   return lastArr
+  // }
 
 
 
-// solution=(str, ending)=> str.substr(str.length-(ending.length))==ending ? true: false
+  // solution=(str, ending)=> str.substr(str.length-(ending.length))==ending ? true: false
 
-// solution('abc', 'd')
+  // solution('abc', 'd')
 
-// solution('abc', 'bc') // returns true
-// solution('abc', 'd') // returns false
-
-
-
-// function findOutlier(integers){
-// var even=0
-// var odd=0
-// for (let i=0; i<integers.length ; i++){
-//   if(integers[i]%2!==0){
-//     odd++
-//   }
-//  else if(integers[i]%2==0){
-//     even++
-//   }
-// }
-// if(even>odd){
-//   return Number(integers.filter(e=>e%2!==0))
-// }
-// else if(even<odd){
-//   return Number(integers.filter(e=>e%2==0))
-// }
-// }
-
-// findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])
-
-// [2, 4, 0, 100, 4, 11, 2602, 36]
-// Should return: 11 (the only odd number)
-
-// [160, 3, 1719, 19, 11, 13, -21]
-// Should return: 160 (the only even number)
-
-
-
-//  return integers.filter(e=>e%2!==0) returns odd
-//  return integers.filter(e=>e%2==0) returns even
-
-
-// function noOdds( values ){
-//  return values.filter(e=>e%2==0)
-// }
-
-
-
-// capitals = (word)=> {
-//   arr=[]
-// 	for (i=0 ; i<word.length ; i++){
-//     if(word[i] == word[i].toUpperCase()){
-//       arr.push(i)
-//     }
-//   }
-// return arr
-// };
-
-// capitals('CodEWaRs')
-
-
-
-// function removeDub (a, b) {
-// var arr= (a.join('')+b.join('')).split('').map(e=>Number(e))
-// let unique_array = arr.filter(function(elem, index, self) {
-//    return index == self.indexOf(elem);
-//   });
-//     return unique_array
-// }
+  // solution('abc', 'bc') // returns true
+  // solution('abc', 'd') // returns false
+
+
+
+  // function findOutlier(integers){
+  // var even=0
+  // var odd=0
+  // for (let i=0; i<integers.length ; i++){
+  //   if(integers[i]%2!==0){
+  //     odd++
+  //   }
+  //  else if(integers[i]%2==0){
+  //     even++
+  //   }
+  // }
+  // if(even>odd){
+  //   return Number(integers.filter(e=>e%2!==0))
+  // }
+  // else if(even<odd){
+  //   return Number(integers.filter(e=>e%2==0))
+  // }
+  // }
+
+  // findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])
+
+  // [2, 4, 0, 100, 4, 11, 2602, 36]
+  // Should return: 11 (the only odd number)
+
+  // [160, 3, 1719, 19, 11, 13, -21]
+  // Should return: 160 (the only even number)
+
+
+
+  //  return integers.filter(e=>e%2!==0) returns odd
+  //  return integers.filter(e=>e%2==0) returns even
+
+
+  // function noOdds( values ){
+  //  return values.filter(e=>e%2==0)
+  // }
+
+
+
+  // capitals = (word)=> {
+  //   arr=[]
+  // 	for (i=0 ; i<word.length ; i++){
+  //     if(word[i] == word[i].toUpperCase()){
+  //       arr.push(i)
+  //     }
+  //   }
+  // return arr
+  // };
+
+  // capitals('CodEWaRs')
+
+
+
+  // function removeDub (a, b) {
+  // var arr= (a.join('')+b.join('')).split('').map(e=>Number(e))
+  // let unique_array = arr.filter(function(elem, index, self) {
+  //    return index == self.indexOf(elem);
+  //   });
+  //     return unique_array
+  // }
 
-// array_diff([3,4], [3])
+  // array_diff([3,4], [3])
 
 
-// function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
-//   if(enteredCode==correctCode &currentDate!==expirationDate){
-//     return true
-//   }
-//   else {
-//     return false
-//   }
-// }
+  // function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+  //   if(enteredCode==correctCode &currentDate!==expirationDate){
+  //     return true
+  //   }
+  //   else {
+  //     return false
+  //   }
+  // }
 
 
-// order=(words)=>{
-//   arr=[]
-//   words= words.split(' ')
-// for(let i=0 ; i<words.length ; i++){
-//   if (words[i].includes("1")){
-//     arr[0]=words[i]
-//   }
-//   else if (words[i].includes("2")){
-//     arr[1]=words[i]
-//   }
-//    else if (words[i].includes("3")){
-//     arr[2]=words[i]
-//   }
-//    else if (words[i].includes("4")){
-//     arr[3]=words[i]
-//   }
-//    else if (words[i].includes("5")){
-//     arr[4]=words[i]
-//   }
-//    else if (words[i].includes("6")){
-//     arr[5]=words[i]
-//   }
-//    else if (words[i].includes("7")){
-//     arr[6]=words[i]
-//   }
-//    else if (words[i].includes("8")){
-//     arr[7]=words[i]
-//   }
-//     else if (words[i].includes("9")){
-//     arr[8]=words[i]
-//   }
-// }
-// return arr.join(' ')
-// }
+  // order=(words)=>{
+  //   arr=[]
+  //   words= words.split(' ')
+  // for(let i=0 ; i<words.length ; i++){
+  //   if (words[i].includes("1")){
+  //     arr[0]=words[i]
+  //   }
+  //   else if (words[i].includes("2")){
+  //     arr[1]=words[i]
+  //   }
+  //    else if (words[i].includes("3")){
+  //     arr[2]=words[i]
+  //   }
+  //    else if (words[i].includes("4")){
+  //     arr[3]=words[i]
+  //   }
+  //    else if (words[i].includes("5")){
+  //     arr[4]=words[i]
+  //   }
+  //    else if (words[i].includes("6")){
+  //     arr[5]=words[i]
+  //   }
+  //    else if (words[i].includes("7")){
+  //     arr[6]=words[i]
+  //   }
+  //    else if (words[i].includes("8")){
+  //     arr[7]=words[i]
+  //   }
+  //     else if (words[i].includes("9")){
+  //     arr[8]=words[i]
+  //   }
+  // }
+  // return arr.join(' ')
+  // }
 
 
 
-// order("is2 Thi1s T4est 3a")
-// should return "Thi1s is2 3a T4est")
+  // order("is2 Thi1s T4est 3a")
+  // should return "Thi1s is2 3a T4est")
 
 
-// myFunc=(arr)=>{
-//   var newArr=[]
-//   for (let i=0 ; i<arr.length ; i++){
-//     newArr.push(Math.floor(arr[i].reduce((a,b)=>a+b)/arr[i].length))
-//   }
-//   return newArr
-// }
+  // myFunc=(arr)=>{
+  //   var newArr=[]
+  //   for (let i=0 ; i<arr.length ; i++){
+  //     newArr.push(Math.floor(arr[i].reduce((a,b)=>a+b)/arr[i].length))
+  //   }
+  //   return newArr
+  // }
 
-// myFunc([[1,2,2,3,4],[23424,234,234234]])
+  // myFunc([[1,2,2,3,4],[23424,234,234234]])
 
-// function list(names){
-// var arr= names.map(e=>e.name)
-// return `${arr.slice(0,arr.length-1).join(', ')} & ${arr.slice(arr.length-1).join('')}`
-// }
+  // function list(names){
+  // var arr= names.map(e=>e.name)
+  // return `${arr.slice(0,arr.length-1).join(', ')} & ${arr.slice(arr.length-1).join('')}`
+  // }
 
-// list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
-// returns 'Bart, Lisa & Maggie'
+  // list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
+  // returns 'Bart, Lisa & Maggie'
 
 
-// function list(names){
-// if(names.length>0){
-//   var arr= names.map(e=>e.name)
-// if(arr.length>1){
-// return `${arr.slice(0,arr.length-1).join(', ')} & ${arr.slice(arr.length-1).join('')}`
-// }
-// else if(arr.length=1){
-//   return arr[0]
-// }
-// }
-// else{
-//   return ''
-// }
+  // function list(names){
+  // if(names.length>0){
+  //   var arr= names.map(e=>e.name)
+  // if(arr.length>1){
+  // return `${arr.slice(0,arr.length-1).join(', ')} & ${arr.slice(arr.length-1).join('')}`
+  // }
+  // else if(arr.length=1){
+  //   return arr[0]
+  // }
+  // }
+  // else{
+  //   return ''
+  // }
 
-// }
+  // }
 
 
 
-// list([{name: 'Bart'},{name: 'Lisa'},{name: 'Maggie'}])
-// returns 'Bart, Lisa & Maggie'
+  // list([{name: 'Bart'},{name: 'Lisa'},{name: 'Maggie'}])
+  // returns 'Bart, Lisa & Maggie'
 
 
 
-// removeSpaces=(str)=>{
-// return str.split(' ').join('')
-// // return str.trim()
-// } 
+  // removeSpaces=(str)=>{
+  // return str.split(' ').join('')
+  // // return str.trim()
+  // } 
 
-// removeSpaces('    asdasd dasdasd sdasdj asdas    ')
+  // removeSpaces('    asdasd dasdasd sdasdj asdas    ')
 
-// function chromosomeCheck(sperm) {
-//   if (sperm === 'XX') {
-//     return "It's a Girl!";
-//   } else if (sperm === 'XY') {
-//     return "It's a Boy!";
-//   }
-// }
+  // function chromosomeCheck(sperm) {
+  //   if (sperm === 'XX') {
+  //     return "It's a Girl!";
+  //   } else if (sperm === 'XY') {
+  //     return "It's a Boy!";
+  //   }
+  // }
 
 
-// function replaceTextWithAlphabetNumber(text) {
-//   var str = "";
-//   for (var i = 0; i < text.length; i++) {
-//     var code = text.toUpperCase().charCodeAt(i);
-//     if (code > 64 && code < 91) str += (code - 64) + " ";
-//   }
+  // function replaceTextWithAlphabetNumber(text) {
+  //   var str = "";
+  //   for (var i = 0; i < text.length; i++) {
+  //     var code = text.toUpperCase().charCodeAt(i);
+  //     if (code > 64 && code < 91) str += (code - 64) + " ";
+  //   }
 
-//   return str
-// }
+  //   return str
+  // }
 
 
-// replaceTextWithAlphabetNumber('athis is new')
+  // replaceTextWithAlphabetNumber('athis is new')
 
 
-// function checkVowels(str) {
-//   var newStr = str.match(/[aeiou]/gi);
-//   return newStr === null ? 0 : newStr.length;
-// }
+  // function checkVowels(str) {
+  //   var newStr = str.match(/[aeiou]/gi);
+  //   return newStr === null ? 0 : newStr.length;
+  // }
 
-// checkVowels('kjbsdfkabaeioulnsdoubnasdo')
+  // checkVowels('kjbsdfkabaeioulnsdoubnasdo')
 
 
 
- // function openOrSenior(data){
+  // function openOrSenior(data){
   //   var c = [];
   //   var i;
 
@@ -1910,7 +1910,7 @@
   // }
 
 
-   // var evensArray=[];
+  // var evensArray=[];
   // function evensOnly (arr){
   //   for (i=0;i<arr.length;i++){
   //     if (arr%2===0){
@@ -1921,7 +1921,7 @@
   // };
   // console.log(evensOnly(myNumbers));
 
- // function daBears() {
+  // function daBears() {
   //   var isFurry = true;
 
   //   function papaBear() {
@@ -1947,145 +1947,158 @@
 
 
 
-//   var arr=[1,2,3,4,5,6,7,8,3]
+  //   var arr=[1,2,3,4,5,6,7,8,3]
 
-// for( i=0;i<20;i++){
-//   arr.pop(i)
-// }
-// console.log('sec',arr.length)
-
-
-// for( i=0;i<20;i++){
-//   arr.push(i)
-// }
-// console.log('first',arr)
+  // for( i=0;i<20;i++){
+  //   arr.pop(i)
+  // }
+  // console.log('sec',arr.length)
 
 
-
-// for( i=0;i<20;i++){
-//   arr.unshift(i)
-// }
-// console.log('third',arr.length)
-
-
-// for( i=0;i<20;i++){
-//   arr.shift(i)
-// }
-// console.log('four',arr.length)
+  // for( i=0;i<20;i++){
+  //   arr.push(i)
+  // }
+  // console.log('first',arr)
 
 
-// function towerBuilder(nFloors) {
-//     var tower = [];
 
-//     for (var i = 1; i <= nFloors; i++) {
-//       tower.push(makeFloor((nFloors*2),(i*2)));    
-//     }
-
-//     return tower;
-// }
-
-// function makeFloor(width, stars) {
-//     var padding = Math.floor((width - stars)/2)+1;
-//     return Array(padding).join(' ') + Array(stars).join('*') + Array(padding).join(' ');            
-// }
+  // for( i=0;i<20;i++){
+  //   arr.unshift(i)
+  // }
+  // console.log('third',arr.length)
 
 
-// function sortArray(array) {
-//   var odd = array
-//     .filter(n => n % 2)
-//     .sort((a, b) => a - b);
-
-//   return array.map(n => n % 2 ? odd.shift() : n);
-// }
-// function replaceTextWithAlphabetNumber(text) {
-//   var str = "";
-//   for (var i = 0; i < text.length; i++) {
-//     var code = text.toUpperCase().charCodeAt(i);
-//     if (code > 64 && code < 91) str += (code - 64) + " ";
-//   }
-
-//   return str
-// }
+  // for( i=0;i<20;i++){
+  //   arr.shift(i)
+  // }
+  // console.log('four',arr.length)
 
 
-// replaceTextWithAlphabetNumber('athis is new')
+  // function towerBuilder(nFloors) {
+  //     var tower = [];
+
+  //     for (var i = 1; i <= nFloors; i++) {
+  //       tower.push(makeFloor((nFloors*2),(i*2)));    
+  //     }
+
+  //     return tower;
+  // }
+
+  // function makeFloor(width, stars) {
+  //     var padding = Math.floor((width - stars)/2)+1;
+  //     return Array(padding).join(' ') + Array(stars).join('*') + Array(padding).join(' ');            
+  // }
 
 
-// function checkVowels(str) {
-//   var newStr = str.match(/[aeiou]/gi);
-//   return newStr === null ? 0 : newStr.length;
-// }
+  // function sortArray(array) {
+  //   var odd = array
+  //     .filter(n => n % 2)
+  //     .sort((a, b) => a - b);
+
+  //   return array.map(n => n % 2 ? odd.shift() : n);
+  // }
+  // function replaceTextWithAlphabetNumber(text) {
+  //   var str = "";
+  //   for (var i = 0; i < text.length; i++) {
+  //     var code = text.toUpperCase().charCodeAt(i);
+  //     if (code > 64 && code < 91) str += (code - 64) + " ";
+  //   }
+
+  //   return str
+  // }
 
 
-// function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
-//   if(enteredCode==correctCode &currentDate!==expirationDate){
-//     return true
-//   }
-//   else {
-//     return false
-//   }
-// }
-// How will example(1)(2) === 3
-//********ANSWER********
-// function example(p){
-//   return function(p2){
-//     return p+p2
-//   }
-// }
-
-//What is the difference between == and ===
-// == compares values
-// === compares type and values
-
-//given the array [[1,2,3],[4,5,6],[7,8,9]]
-//reverse to equal [[9,8,7],[6,5,4],[3,2,1]]
-//**********ANSWER******* 
-// function reverse(arr){
-//   //I did this way, then he told me to do it the next way
-//   // return arr.reverse().map(e=>e.reverse());
-
-// //the next way
-// let newArr = []
-//   for(let i = 0; i < arr.length; i++){
-//     let innerArr = [];
-//    for(let j = 0; j < arr[i].length; j++){
-
-//      innerArr.unshift(arr[i][j])
-//    }
-//    newArr.unshift(innerArr)
-//   }
-// return newArr;
-// }
-
-//typeof null === 'object'
-
-// class promise{
-//   //fake async call
-//   static getUserIds(){
-//     return [1,2,3]
-//   }
-//   //fake async call
-//   static getUserNames(){
-//     return ["james","john","juan"]
-//   }
-// }
-// Promise.all([promise.getUserIds(),promise.getUserNames()]).then(res=>console.log(res))
+  // replaceTextWithAlphabetNumber('athis is new')
 
 
-// function sortArray(array) {
-//   var odd = array
-//     .filter(n => n % 2)
-//     .sort((a, b) => a - b);
+  // function checkVowels(str) {
+  //   var newStr = str.match(/[aeiou]/gi);
+  //   return newStr === null ? 0 : newStr.length;
+  // }
 
-//   return array.map(n => n % 2 ? odd.shift() : n);
-// }
-// function replaceTextWithAlphabetNumber(text) {
-//   var str = "";
-//   for (var i = 0; i < text.length; i++) {
-//     var code = text.toUpperCase().charCodeAt(i);
-//     if (code > 64 && code < 91) str += (code - 64) + " ";
-//   }
 
-//   return str
-// }
+  // function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+  //   if(enteredCode==correctCode &currentDate!==expirationDate){
+  //     return true
+  //   }
+  //   else {
+  //     return false
+  //   }
+  // }
+  // How will example(1)(2) === 3
+  //********ANSWER********
+  // function example(p){
+  //   return function(p2){
+  //     return p+p2
+  //   }
+  // }
+
+  //What is the difference between == and ===
+  // == compares values
+  // === compares type and values
+
+  //given the array [[1,2,3],[4,5,6],[7,8,9]]
+  //reverse to equal [[9,8,7],[6,5,4],[3,2,1]]
+  //**********ANSWER******* 
+  // function reverse(arr){
+  //   //I did this way, then he told me to do it the next way
+  //   // return arr.reverse().map(e=>e.reverse());
+
+  // //the next way
+  // let newArr = []
+  //   for(let i = 0; i < arr.length; i++){
+  //     let innerArr = [];
+  //    for(let j = 0; j < arr[i].length; j++){
+
+  //      innerArr.unshift(arr[i][j])
+  //    }
+  //    newArr.unshift(innerArr)
+  //   }
+  // return newArr;
+  // }
+
+  //typeof null === 'object'
+
+  // class promise{
+  //   //fake async call
+  //   static getUserIds(){
+  //     return [1,2,3]
+  //   }
+  //   //fake async call
+  //   static getUserNames(){
+  //     return ["james","john","juan"]
+  //   }
+  // }
+  // Promise.all([promise.getUserIds(),promise.getUserNames()]).then(res=>console.log(res))
+
+
+  // function sortArray(array) {
+  //   var odd = array
+  //     .filter(n => n % 2)
+  //     .sort((a, b) => a - b);
+
+  //   return array.map(n => n % 2 ? odd.shift() : n);
+  // }
+  // function replaceTextWithAlphabetNumber(text) {
+  //   var str = "";
+  //   for (var i = 0; i < text.length; i++) {
+  //     var code = text.toUpperCase().charCodeAt(i);
+  //     if (code > 64 && code < 91) str += (code - 64) + " ";
+  //   }
+
+  //   return str
+  // }
+  var test = [[1, 2, 3, 4, 5, 6], [2, 3, 4, 5]];
+  var func = (test) => {
+    arr = []
+    for (i = 0; i < test.length; i++) {
+      for (j = 0; j < test[i].length; j++) {
+        arr.push(test[i][j])
+      }
+    }
+    return arr.reduce((a, b) => a + b) / arr.length;
+  }
+  console.log(func(test));
+
+
 </script>
