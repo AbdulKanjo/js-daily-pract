@@ -2088,17 +2088,59 @@
 
   //   return str
   // }
-  var test = [[1, 2, 3, 4, 5, 6], [2, 3, 4, 5]];
-  var func = (test) => {
-    arr = []
-    for (i = 0; i < test.length; i++) {
-      for (j = 0; j < test[i].length; j++) {
-        arr.push(test[i][j])
-      }
-    }
-    return arr.reduce((a, b) => a + b) / arr.length;
-  }
-  console.log(func(test));
+  // var test = [[1, 2, 3, 4, 5, 6], [2, 3, 4, 5]];
+  // var func = (test) => {
+  //   arr = []
+  //   for (i = 0; i < test.length; i++) {
+  //     for (j = 0; j < test[i].length; j++) {
+  //       arr.push(test[i][j])
+  //     }
+  //   }
+  //   return arr.reduce((a, b) => a + b) / arr.length;
+  // }
+  // console.log(func(test));
 
 
+
+// function balance(left,right){
+// var leftArr=left.split('')
+// var rightArr=right.split('')
+// var leftArri=[]
+// var rightArri=[]
+// for (i = 0; i < leftArr.length; i++){
+//   if(leftArr[i]=='!'){
+//     leftArri.push(2)
+//   }
+//    else if(leftArr[i]=='?'){
+//     leftArri.push(3)
+//   }
+// }
+// for (i = 0; i < rightArr.length; i++){
+//   if(rightArr[i]=='?'){
+//     rightArri.push(3)
+//   }
+//   else if(rightArr[i]=='!'){
+//     rightArri.push(2)
+//   }
+// }
+// var leftN= leftArri.reduce((a,b)=>a+b)
+// var rightN= rightArri.reduce((a,b)=>a+b)
+
+// if(rightN>leftN){
+//   return 'RIGHT'
+// }
+// else if(leftN>rightN){
+//   return 'Left'
+// }
+// else{
+//   return 'Balance'
+// }
+// }
+
+// balance("!!","??")
+
+// balance("!!","??") === "Right"
+// balance("!??","?!!") === "Left"
+// balance("!?!!","?!?") === "Left"
+// balance("!!???!????","??!!?!!!!!!!") === "Balance"
 </script>
