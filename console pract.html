@@ -1871,4 +1871,58 @@
   // iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even
 
   // iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
+
+  // //the next way
+  // let newArr = []
+  //   for(let i = 0; i < arr.length; i++){
+  //     let innerArr = [];
+  //    for(let j = 0; j < arr[i].length; j++){
+
+  //      innerArr.unshift(arr[i][j])
+  //    }
+  //    newArr.unshift(innerArr)
+  //   }
+  // return newArr;
+  // }
+
+  //typeof null === 'object'
+
+  // class promise{
+  //   //fake async call
+  //   static getUserIds(){
+  //     return [1,2,3]
+  //   }
+  //   //fake async call
+  //   static getUserNames(){
+  //     return ["james","john","juan"]
+  //   }
+  // }
+  // Promise.all([promise.getUserIds(),promise.getUserNames()]).then(res=>console.log(res))
+
+  // function sortArray(array) {
+  //   var odd = array
+  //     .filter(n => n % 2)
+  //     .sort((a, b) => a - b);
+
+  //   return array.map(n => n % 2 ? odd.shift() : n);
+  // }
+  // function replaceTextWithAlphabetNumber(text) {
+  //   var str = "";
+  //   for (var i = 0; i < text.length; i++) {
+  //     var code = text.toUpperCase().charCodeAt(i);
+  //     if (code > 64 && code < 91) str += (code - 64) + " ";
+  //   }
+
+  //   return str
+  // }
+
+  // var obj={a:1,b:2,c:3}
+
+  // var func= (data)=>{
+  //   arr=[]
+  //   arr.push(Object.keys(data),Object.values(data))
+  //   return arr
+  // }
+
+  // console.log(func(obj))
 </script>
